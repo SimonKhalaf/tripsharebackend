@@ -1,0 +1,117 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    background-color: #F6F6F6;
+    padding: 30px;
+}
+
+nav a {
+    background-color: #05668D;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #02C39A;
+    transition: 0.3s;
+}
+
+.logoimg {
+    float: left;
+}
+
+/*----- Resorna -----*/
+.kolumner {
+    margin: 50px;
+}
+
+.row {
+    background-color: #05668D;
+    border-radius: 30px;
+    margin: auto;
+    width: 50%;  
+}
+
+.column {
+    float: left;
+    width: 50%;
+    height: 225px;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+table {
+    margin: auto;
+    width: 90%;
+}
+
+@media screen and (max-width: 800px) {
+    .row {
+      width: 100%;
+    }
+  }
+
+/*----- Kartorna så att de passar in -----*/
+img {
+    width: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: -5px;
+}
+
+/*----- Resorna efter att ha tryckt på knapparna -----*/
+.filtrering {
+    background-color: #05668d58;
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px ;
+}
+
+.filter {
+    margin: 20px;
+}
+
+/*----- Knapparna längst upp -----*/
+button {
+    padding: 12px;
+    border: 1px solid #02C39A;
+    background-color: #02C39A;
+    color: white;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid #05668D;
+    background-color: #05668D;
+    transition: 0.3s;
+}
+
+.kontakta {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+input {
+    padding: 5px;
+}
+
+.titel {
+    color: #02C39A;
+    font-weight: bold;
+    font-size: 25px;
+}
